@@ -1,0 +1,307 @@
+0000.001 (0) Opened log file at time: Tue, 21 Apr 2020 15:01:38 +0000 on http://vaskarko.ikt.khk.ee/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.2.29 (cgi-fcgi, Linux ikt.khk.ee 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019 x86_64) MySQL: 5.6.47 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 50.3M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.063 (0) Free space on disk containing Updraft's temporary directory: 285784.1 MB
+0000.065 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.066 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.068 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1586867957, seconds_ago=613342)
+0000.069 (0) Set semaphore last lock (fd) time to 2020-04-21 15:01:39
+0000.070 (0) Semaphore lock (fd) complete
+0000.072 (0) Backup run: resumption=0, nonce=dcbb194d5715, file_nonce=dcbb194d5715 begun at=1587481298 (1s ago), job type=backup
+0000.073 (0) Scheduling a resumption (1) after 300 seconds (1587481599) in case this run gets aborted
+0000.083 (0) Checking if we have a zip executable available
+0000.083 (0) Testing: /usr/bin/zip
+0000.089 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.090 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.092 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.097 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.098 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.106 (0) Working binary zip found: /usr/bin/zip
+0000.107 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.107 (0) Creation of backups of directories: beginning
+0000.109 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.295 (0) Total entities for the zip file: 569 directories, 3090 files (0 skipped as non-modified), 58.8 MB
+0000.303 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.311 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.318 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.326 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.333 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.334 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 3090 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.741 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: size is now: 4.60 MB
+0000.750 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 600 files added (on-disk size: 4666.4 KB)
+0000.757 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 700 files added (on-disk size: 4666.4 KB)
+0000.765 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 800 files added (on-disk size: 4666.4 KB)
+0000.773 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 900 files added (on-disk size: 4666.4 KB)
+0000.780 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1000 files added (on-disk size: 4666.4 KB)
+0000.781 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.6 MB, 3090 files batched, 501 (1002) added so far); re-opening (prior size: 4666.4 KB)
+0001.633 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: size is now: 9.40 MB
+0001.642 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1100 files added (on-disk size: 9575.2 KB)
+0001.650 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1200 files added (on-disk size: 9575.2 KB)
+0001.658 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1300 files added (on-disk size: 9575.2 KB)
+0001.666 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1400 files added (on-disk size: 9575.2 KB)
+0001.674 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1500 files added (on-disk size: 9575.2 KB)
+0001.674 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 3090 files batched, 501 (1503) added so far); re-opening (prior size: 9575.2 KB)
+0001.914 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1600 files added (on-disk size: 10501.9 KB)
+0001.922 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1700 files added (on-disk size: 10501.9 KB)
+0001.930 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1800 files added (on-disk size: 10501.9 KB)
+0001.938 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 1900 files added (on-disk size: 10501.9 KB)
+0001.945 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2000 files added (on-disk size: 10501.9 KB)
+0001.946 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 3090 files batched, 501 (2004) added so far); re-opening (prior size: 10501.9 KB)
+0002.176 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2100 files added (on-disk size: 11285.2 KB)
+0002.184 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2200 files added (on-disk size: 11285.2 KB)
+0002.192 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2300 files added (on-disk size: 11285.2 KB)
+0002.199 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2400 files added (on-disk size: 11285.2 KB)
+0002.207 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2500 files added (on-disk size: 11285.2 KB)
+0002.208 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.1 MB, 3090 files batched, 501 (2505) added so far); re-opening (prior size: 11285.2 KB)
+0003.249 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: size is now: 16.40 MB
+0003.257 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2600 files added (on-disk size: 16769.5 KB)
+0003.265 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2700 files added (on-disk size: 16769.5 KB)
+0003.273 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2800 files added (on-disk size: 16769.5 KB)
+0003.281 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 2900 files added (on-disk size: 16769.5 KB)
+0003.288 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: 3000 files added (on-disk size: 16769.5 KB)
+0003.289 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 3090 files batched, 501 (3006) added so far); re-opening (prior size: 16769.5 KB)
+0004.169 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip.tmp: size is now: 20.70 MB
+0004.590 (0) Created plugins zip (0) - 21354.9 KB in 4.4 s (4816.5 KB/s) (sha1: cf6ae2a03b1084ba08d23582be8b77a0128f5752, sha256: 31818e631cb2046bd378fbc101f62747d7e93192d5e129aa824c7556aaa6cf29)
+0004.592 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.663 (0) Total entities for the zip file: 85 directories, 442 files (0 skipped as non-modified), 6.1 MB
+0004.671 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.679 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.686 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.694 (0) Zip: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.968 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-themes.zip.tmp: size is now: 3.60 MB
+0005.026 (0) Created themes zip (0) - 3652.4 KB in 0.4 s (9449.3 KB/s) (sha1: ab57418cfca09c3005c63d38396d338adae928dd, sha256: 889e1e6e6cc3545d2564fd731c50311e45bdf1c4a4a2214631c742b1b289f3f0)
+0005.027 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.028 (0) Looking for candidates to backup in: /home/vaskarkoiktkhk/public_html/wordpress/wp-content/uploads
+0005.029 (0) finding files: 2020: adding to list (1)
+0005.029 (0) finding files: elementor: adding to list (2)
+0005.029 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.083 (0) Total entities for the zip file: 5 directories, 78 files (0 skipped as non-modified), 8.7 MB
+0005.173 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-uploads.zip.tmp: size is now: 8.70 MB
+0005.313 (0) Created uploads zip (0) - 8920.3 KB in 0.2 s (37790 KB/s) (sha1: ef65f9b1a822f8dca286f56d288bbc4063069753, sha256: bdd42c2475c8387a42fee904a28dfb0d00d4b749ca9531e6ffa75b280ab16053)
+0005.315 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.315 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.316 (0) Looking for candidates to backup in: /home/vaskarkoiktkhk/public_html/wordpress/wp-content
+0005.316 (0) finding files: themes: skipping: this is the themes directory
+0005.317 (0) finding files: index.php: adding to list (1)
+0005.317 (0) finding files: plugins: skipping: this is the plugins directory
+0005.317 (0) finding files: uploads: skipping: this is the uploads directory
+0005.318 (0) finding files: upgrade: skipping: excluded by options
+0005.318 (0) finding files: languages: adding to list (2)
+0005.319 (0) finding files: updraft: skipping: this is the updraft directory
+0005.319 (0) finding files: wflogs: adding to list (3)
+0005.368 (0) Total entities for the zip file: 4 directories, 63 files (0 skipped as non-modified), 9.3 MB
+0006.083 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-others.zip.tmp: size is now: 3.50 MB
+0006.139 (0) Created others zip (0) - 3562.7 KB in 0.8 s (4610.3 KB/s) (sha1: d87a8ad8867c29e4f542e68998e8aca6f9d24240, sha256: 313560fdb3519f9b0a7a4721c604d984a8c5ba512a374d7f363103eee6f8c95c)
+0006.142 (0) Saving backup status to database (elements: 8)
+0006.143 (0) Beginning creation of database dump (WordPress DB)
+0006.145 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0006.161 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1252 bytes total)
+0006.163 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0006.166 (0) Table wp_options: Total expected rows (approximate): 230
+0006.189 (0) Table wp_options: Total rows added: 226 in 0.02 seconds
+0006.191 (0) Table wp_options: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_options.table.gz - 48 KB)
+0006.193 (0) Table wp_users: Total expected rows (approximate): 2
+0006.195 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0006.195 (0) Table wp_users: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_users.table.gz - 0.7 KB)
+0006.198 (0) Table wp_usermeta: Total expected rows (approximate): 36
+0006.200 (0) Table wp_usermeta: Total rows added: 36 in 0.00 seconds
+0006.200 (0) Table wp_usermeta: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_usermeta.table.gz - 1.2 KB)
+0006.202 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 22
+0006.205 (0) Table wp_actionscheduler_actions: Total rows added: 22 in 0.00 seconds
+0006.206 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_actions.table.gz - 1.5 KB)
+0006.208 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0006.210 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0006.210 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_claims.table.gz - 0.4 KB)
+0006.212 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0006.214 (0) Table wp_actionscheduler_groups: Total rows added: 2 in 0.00 seconds
+0006.215 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0006.217 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 64
+0006.219 (0) Table wp_actionscheduler_logs: Total rows added: 64 in 0.00 seconds
+0006.220 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_logs.table.gz - 1.1 KB)
+0006.222 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0006.223 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.224 (0) Table wp_commentmeta: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0006.226 (0) Table wp_comments: Total expected rows (approximate): 1
+0006.228 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0006.228 (0) Table wp_comments: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_comments.table.gz - 0.7 KB)
+0006.231 (0) Table wp_links: Total expected rows (approximate): 0
+0006.233 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0006.233 (0) Table wp_links: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_links.table.gz - 0.4 KB)
+0006.235 (0) Table wp_postmeta: Total expected rows (approximate): 108
+0006.238 (0) Table wp_postmeta: Total rows added: 108 in 0.00 seconds
+0006.239 (0) Table wp_postmeta: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_postmeta.table.gz - 4.3 KB)
+0006.241 (0) Table wp_posts: Total expected rows (approximate): 52
+0006.246 (0) Table wp_posts: Total rows added: 52 in 0.00 seconds
+0006.247 (0) Table wp_posts: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_posts.table.gz - 9.3 KB)
+0006.249 (0) Table wp_term_relationships: Total expected rows (approximate): 4
+0006.251 (0) Table wp_term_relationships: Total rows added: 4 in 0.00 seconds
+0006.251 (0) Table wp_term_relationships: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0006.253 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0006.255 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0006.256 (0) Table wp_term_taxonomy: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0006.258 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0006.260 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0006.260 (0) Table wp_termmeta: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_termmeta.table.gz - 0.4 KB)
+0006.262 (0) Table wp_terms: Total expected rows (approximate): 1
+0006.264 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0006.265 (0) Table wp_terms: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_terms.table.gz - 0.4 KB)
+0006.267 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0006.269 (0) Table wp_wfblockediplog: Total rows added: 0 in 0.00 seconds
+0006.269 (0) Table wp_wfblockediplog: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfblockediplog.table.gz - 0.3 KB)
+0006.271 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0006.273 (0) Table wp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0006.274 (0) Table wp_wfblocks7: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0006.276 (0) Table wp_wfconfig: Total expected rows (approximate): 248
+0006.302 (0) Table wp_wfconfig: Total rows added: 248 in 0.03 seconds
+0006.303 (0) Table wp_wfconfig: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfconfig.table.gz - 361.8 KB)
+0006.306 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0006.307 (0) Table wp_wfcrawlers: Total rows added: 0 in 0.00 seconds
+0006.308 (0) Table wp_wfcrawlers: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfcrawlers.table.gz - 0.3 KB)
+0006.310 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0006.312 (0) Table wp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0006.312 (0) Table wp_wffilechanges: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0006.314 (0) Table wp_wffilemods: Total expected rows (approximate): 5204
+0006.417 (0) Table wp_wffilemods: Total rows added: 5204 in 0.10 seconds
+0006.418 (0) Table wp_wffilemods: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wffilemods.table.gz - 409.1 KB)
+0006.421 (0) Table wp_wfhits: Total expected rows (approximate): 3
+0006.423 (0) Table wp_wfhits: Total rows added: 3 in 0.00 seconds
+0006.424 (0) Table wp_wfhits: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfhits.table.gz - 0.9 KB)
+0006.426 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0006.428 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0006.428 (0) Table wp_wfhoover: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0006.430 (0) Table wp_wfissues: Total expected rows (approximate): 6
+0006.433 (0) Table wp_wfissues: Total rows added: 6 in 0.00 seconds
+0006.433 (0) Table wp_wfissues: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfissues.table.gz - 2.1 KB)
+0006.435 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 5205
+0006.467 (0) Table wp_wfknownfilelist: Total rows added: 5205 in 0.03 seconds
+0006.468 (0) Table wp_wfknownfilelist: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfknownfilelist.table.gz - 51.3 KB)
+0006.470 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0006.472 (0) Table wp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0006.472 (0) Table wp_wflivetraffichuman: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0006.475 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0006.476 (0) Table wp_wflocs: Total rows added: 0 in 0.00 seconds
+0006.477 (0) Table wp_wflocs: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wflocs.table.gz - 0.4 KB)
+0006.479 (0) Table wp_wflogins: Total expected rows (approximate): 2
+0006.481 (0) Table wp_wflogins: Total rows added: 2 in 0.00 seconds
+0006.482 (0) Table wp_wflogins: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wflogins.table.gz - 0.6 KB)
+0006.484 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0006.486 (0) Table wp_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0006.487 (0) Table wp_wfls_2fa_secrets: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfls_2fa_secrets.table.gz - 0.4 KB)
+0006.489 (0) Table wp_wfls_settings: Total expected rows (approximate): 17
+0006.491 (0) Table wp_wfls_settings: Total rows added: 19 in 0.00 seconds
+0006.491 (0) Table wp_wfls_settings: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfls_settings.table.gz - 0.7 KB)
+0006.493 (0) Table wp_wfnotifications: Total expected rows (approximate): 2
+0006.495 (0) Table wp_wfnotifications: Total rows added: 2 in 0.00 seconds
+0006.496 (0) Table wp_wfnotifications: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfnotifications.table.gz - 0.5 KB)
+0006.498 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0006.500 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0006.500 (0) Table wp_wfpendingissues: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0006.503 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0006.504 (0) Table wp_wfreversecache: Total rows added: 0 in 0.00 seconds
+0006.505 (0) Table wp_wfreversecache: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfreversecache.table.gz - 0.3 KB)
+0006.507 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0006.509 (0) Table wp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0006.509 (0) Table wp_wfsnipcache: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0006.511 (0) Table wp_wfstatus: Total expected rows (approximate): 681
+0006.519 (0) Table wp_wfstatus: Total rows added: 681 in 0.01 seconds
+0006.520 (0) Table wp_wfstatus: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfstatus.table.gz - 9.8 KB)
+0006.522 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0006.524 (0) Table wp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0006.524 (0) Table wp_wftrafficrates: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0006.527 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 1
+0006.528 (0) Table wp_wpforms_tasks_meta: Total rows added: 1 in 0.00 seconds
+0006.529 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wpforms_tasks_meta.table.gz - 0.4 KB)
+0006.530 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_options.table.gz (1/38): adding to final database dump
+0006.544 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_users.table.gz (2/38): adding to final database dump
+0006.545 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_usermeta.table.gz (3/38): adding to final database dump
+0006.545 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_actions.table.gz (4/38): adding to final database dump
+0006.546 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_claims.table.gz (5/38): adding to final database dump
+0006.547 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_groups.table.gz (6/38): adding to final database dump
+0006.547 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_actionscheduler_logs.table.gz (7/38): adding to final database dump
+0006.548 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_commentmeta.table.gz (8/38): adding to final database dump
+0006.549 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_comments.table.gz (9/38): adding to final database dump
+0006.549 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_links.table.gz (10/38): adding to final database dump
+0006.550 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_postmeta.table.gz (11/38): adding to final database dump
+0006.552 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_posts.table.gz (12/38): adding to final database dump
+0006.554 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_term_relationships.table.gz (13/38): adding to final database dump
+0006.555 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_term_taxonomy.table.gz (14/38): adding to final database dump
+0006.555 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_termmeta.table.gz (15/38): adding to final database dump
+0006.556 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_terms.table.gz (16/38): adding to final database dump
+0006.556 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfblockediplog.table.gz (17/38): adding to final database dump
+0006.557 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfblocks7.table.gz (18/38): adding to final database dump
+0006.557 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfconfig.table.gz (19/38): adding to final database dump
+0006.582 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfcrawlers.table.gz (20/38): adding to final database dump
+0006.582 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wffilechanges.table.gz (21/38): adding to final database dump
+0006.583 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wffilemods.table.gz (22/38): adding to final database dump
+0006.630 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfhits.table.gz (23/38): adding to final database dump
+0006.631 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfhoover.table.gz (24/38): adding to final database dump
+0006.631 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfissues.table.gz (25/38): adding to final database dump
+0006.632 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfknownfilelist.table.gz (26/38): adding to final database dump
+0006.648 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wflivetraffichuman.table.gz (27/38): adding to final database dump
+0006.649 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wflocs.table.gz (28/38): adding to final database dump
+0006.649 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wflogins.table.gz (29/38): adding to final database dump
+0006.650 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfls_2fa_secrets.table.gz (30/38): adding to final database dump
+0006.650 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfls_settings.table.gz (31/38): adding to final database dump
+0006.651 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfnotifications.table.gz (32/38): adding to final database dump
+0006.651 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfpendingissues.table.gz (33/38): adding to final database dump
+0006.652 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfreversecache.table.gz (34/38): adding to final database dump
+0006.652 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfsnipcache.table.gz (35/38): adding to final database dump
+0006.653 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wfstatus.table.gz (36/38): adding to final database dump
+0006.656 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wftrafficrates.table.gz (37/38): adding to final database dump
+0006.656 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db-table-wp_wpforms_tasks_meta.table.gz (38/38): adding to final database dump
+0006.660 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db.gz: finished writing out complete database file (880 KB)
+0006.678 (0) Total database tables backed up: 38 (backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db.gz, size: 925797, sha1: 3c0762d080d683aa1627ba80beeabcc81facf40c, sha256: 7aea3d8a60d1ab5c1c2d5cf266b927a3d219bbf9a866279041ea2cd4b3292dce)
+0006.682 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.683 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.683 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.683 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.684 (0) backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.684 (0) Saving backup history. Total backup size: 37.5 MB
+0006.686 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.688 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.688 (0) No remote despatch: user chose no remote backup service
+0006.689 (0) Recording as successfully uploaded: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-plugins.zip
+0006.690 (0) Recording as successfully uploaded: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-themes.zip
+0006.691 (0) Recording as successfully uploaded: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-uploads.zip
+0006.692 (0) Recording as successfully uploaded: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-others.zip
+0006.693 (0) Recording as successfully uploaded: backup_2020-04-21-1801_SisuhaldusAV_IKT_dcbb194d5715-db.gz
+0006.695 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0006.696 (0) Number of backup sets in history: 2; groups (db): 1
+0006.697 (0) Examining (for databases) backup set with group_id=0, nonce=dcbb194d5715, datestamp=1587481298 (Apr 21 2020 15:01:38)
+0006.697 (0) This backup set is the backup set just made, so will not be deleted.
+0006.697 (0) Examining (for databases) backup set with group_id=0, nonce=fa637a0f64f1, datestamp=1586867957 (Apr 14 2020 12:39:17)
+0006.697 (0) 1586867957: db: this set includes a database (backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-db.gz); db count is now 1
+0006.697 (0) 1586867957: db: over retain limit (1); will delete this database
+0006.697 (0) Delete file: backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-db.gz, service=none
+0006.698 (0) Deleting local copy (backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-db.gz)
+0006.699 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.699 (0) Number of backup sets in history: 2; groups (files): 1
+0006.700 (0) Examining (for files) backup set with nonce=dcbb194d5715, datestamp=1587481298 (Apr 21 2020 15:01:38)
+0006.700 (0) This backup set is the backup set just made, so will not be deleted.
+0006.700 (0) This backup set is the backup set just made, so will not be deleted.
+0006.700 (0) This backup set is the backup set just made, so will not be deleted.
+0006.700 (0) This backup set is the backup set just made, so will not be deleted.
+0006.701 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.701 (0) Examining (for files) backup set with nonce=fa637a0f64f1, datestamp=1586867957 (Apr 14 2020 12:39:17)
+0006.701 (0) plugins: over retain limit (1); will delete this file entity
+0006.701 (0) themes: over retain limit (1); will delete this file entity
+0006.701 (0) uploads: over retain limit (1); will delete this file entity
+0006.701 (0) others: over retain limit (1); will delete this file entity
+0006.701 (0) Delete file: backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-plugins.zip, service=none
+0006.702 (0) Deleting local copy (backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-plugins.zip)
+0006.702 (0) Delete file: backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-themes.zip, service=none
+0006.702 (0) Deleting local copy (backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-themes.zip)
+0006.703 (0) Delete file: backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-uploads.zip, service=none
+0006.703 (0) Deleting local copy (backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-uploads.zip)
+0006.704 (0) Delete file: backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-others.zip, service=none
+0006.704 (0) Deleting local copy (backup_2020-04-14-1539_SisuhaldusAV_IKT_fa637a0f64f1-others.zip)
+0006.706 (0) This backup set is now empty; will remove from history
+0006.706 (0) Deleting log file (log.fa637a0f64f1.txt)
+0006.707 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0006.708 (0) Resume backup (dcbb194d5715, 0): finish run
+0006.710 (0) Decremented the semaphore (fd) by 1
+0006.710 (0) Semaphore (fd) unlocked
+0006.711 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.713 (0) No email will/can be sent - the user has not configured an email address.
+0006.713 (0) The backup apparently succeeded and is now complete
